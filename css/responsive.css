@@ -1,0 +1,21 @@
+@media all and (max-width: 992px) {
+  .aside-left {
+    width: 100%;
+    order: 1;
+  }
+  .article {
+    width: 80%;
+  }
+}
+@media all and (max-width: 768px) {
+  .article {
+    width: 100%;
+  }
+  .aside-left {
+    width: 100%;
+  }
+  .aside-right {
+    width: 100%;
+    order: 1;
+  }
+}
